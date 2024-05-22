@@ -75,7 +75,7 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
       )}
 
       <div className="flex flex-col gap-2">
-        <p className="text-base-medium text-grey-2">Quantity:</p>
+        <p className="text-base-medium text-grey-2">Количество:</p>
         <div className="flex gap-4 items-center">
           <MinusCircle
             className="hover:text-red-1 cursor-pointer"
